@@ -1,0 +1,99 @@
+{
+  "crearProducto": {
+    "title": "Create New Product",
+    "form": {
+      "sections": {
+        "basicInfo": "Basic Information",
+        "priceStock": "Price and Inventory",
+        "compatibility": "Product Compatibility",
+        "technicalSpecs": "Technical Specifications",
+        "certifications": "Certifications and Standards",
+        "labels": "Tags and Categorization",
+        "images": "Product Images",
+        "details": "Product Details"
+      },
+      "fields": {
+        "productName": "Product Name *",
+        "category": "Category *",
+        "description": "Description",
+       
+        "price": "Price (₡) *",
+        "stock": "Available Stock *",
+        "tax": "Applicable Tax",
+        "productStatus": "Product Status",
+        "statusActive": "Active (visible in store)",
+        "statusInactive": "Inactive (not visible)",
+        "year": "Compatible Year",
+        "brand": "Compatible Brand",
+        "model": "Compatible Model",
+        "engine": "Compatible Engine",
+        "certificationsInput": "Certifications (comma-separated)",
+        "tagLabel": "Select Tags",
+        "tagNone": "No tag selected",
+        "imageDescription": "Add product images (maximum 3). Images must be in JPG or PNG format and not exceed 2MB.",
+        "imagePlaceholder": "Click to select an image",
+        "imageNote": "(JPG/PNG, max 2MB)",
+        "addImage": "Add Image",
+        "remainingImages": "remaining"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "saving": "Creating...",
+        "save": "Save Product"
+      },
+      "errors": {
+        "loadInitialData": "Error loading initial data",
+        "createError": "Error creating product",
+        "errorMessage": "No response received from server"
+      },
+      "toasts": {
+        "maxImages": "You can upload up to 3 images per product",
+        "invalidImage": "Please select a valid image file",
+        "imageTooLarge": "Image must not exceed 2MB",
+        "success": "Product created successfully!"
+      }
+      ,
+      "validations": {
+      "nombre": {
+        "required": "Please enter a product name",
+        "max": "Name cannot exceed 100 characters"
+      },
+      "descripcion": {
+        "max": "Description is too long"
+      },
+      "precio": {
+        "typeError": "Must be a numeric value",
+        "required": "Price is required",
+        "positive": "Price must be positive"
+      },
+      "categoria_id": {
+        "typeError": "Select a valid category",
+        "required": "Category is required"
+      },
+      "stock": {
+        "typeError": "Must be an integer",
+        "required": "Stock is required",
+        "integer": "Stock must be a whole number",
+        "min": "Stock cannot be negative"
+      },
+      "ano_compatible": {
+        "typeError": "Enter a valid year",
+        "min": "Year must be after 1900",
+        "max": "Year cannot be in the future"
+      },
+      "marca_compatible": {
+        "max": "Maximum 50 characters"
+      },
+      "modelo_compatible": {
+        "max": "Maximum 50 characters"
+      },
+      "motor_compatible": {
+        "max": "Maximum 50 characters"
+      }
+    },
+    "idImpuesto": {
+      "typeError": "Insert a valid tax option"
+      
+    }
+  }
+}}

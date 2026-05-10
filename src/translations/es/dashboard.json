@@ -1,0 +1,33 @@
+{
+  "dashboard": {
+    "kpis": {
+      "ventasPeriodo": "Ventas (periodo)",
+      "montoTotal": "Monto total (₡)",
+      "calificacionReciente": "Calificación reciente"
+    },
+    "ventas": {
+      "titulo": "Ventas por",
+      "unidad": {
+        "daily": "día",
+        "monthly": "mes"
+      },
+      "toggle": {
+        "daily": "Diario",
+        "monthly": "Mensual"
+      }
+    },
+    "pedidosPorEstado": {
+      "titulo": "Pedidos por estado"
+    },
+    "top": {
+      "titulo": "3 productos más vendidos",
+      "ventas": "Ventas:"
+    },
+    "resenas": {
+      "titulo": "3 reseñas más recientes"
+    },
+    "comunes": {
+      "sinDatos": "Sin datos"
+    }
+  }
+}

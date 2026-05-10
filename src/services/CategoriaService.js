@@ -1,0 +1,14 @@
+import axios from "axios";
+const BASE_URL = "http://localhost:81/carstoolscr/categorias";
+
+class CategoriaService {
+  // Obtener lista de categorías
+  getCategorias() {
+    return axios.get(BASE_URL);
+  }
+  getProoductoCat(id) {
+    return axios.get(BASE_URL + "/" + id);
+  }
+}
+
+export default new CategoriaService();
